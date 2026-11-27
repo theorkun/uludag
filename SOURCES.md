@@ -33,6 +33,10 @@ Logo SHA-256: `2a3b643cf876a20b75491db7fb09301408c84ae5522c4c033a4161d080b4ecee`
 Fotoğraflar gerçek kişiye ve resmî etkinliklere aittir; yapay portre veya temsili etkinlik görseli kullanılmamıştır. Görsel hakları kaynak kuruma aittir; kamuya açık resmî yayına geçişte kurumun içerik/görsel onayıyla kullanılmalıdır.
 # Kullanıcı tarafından sağlanan görsel
 
+## Kurum logoları
+
+`dist/assets/cukurova-belediyeler-birligi-logo.png`: [Çukurova Belediyeler Birliği resmî sitesi](https://cbb.gov.tr/), [logo dosyası](https://cbb.gov.tr/site/images/sade-logo.png). 27 Kasım 2026 tarihinde alınmış, değiştirilmeden kullanılmıştır. Sarıçam Belediyesi'nin mevcut logosuyla birlikte ana sayfada başkan adının üstünde yer alır.
+
 `dist/assets/saricam-gol-manzarasi.jpg`: Kullanıcının paylaştığı göl manzarası. Sınır haritasının yerine tüm sayfalarda beyaz saydam katman altında arka plan olarak kullanılır. Kaynak dosya değiştirilmemiştir.
 
 `dist/assets/saricam-sinir-haritasi.png`: Yerel `MAH_SINIR-69Adet.png` dosyası. Sarıçam ilçe sınır haritası, tüm sayfaların en arka katmanında CSS ile gri tonlu ve düşük opaklıkta dekoratif olarak kullanılır. Kaynak görsel değiştirilmemiştir; güncel idari sınır sorgulama hizmeti değildir.

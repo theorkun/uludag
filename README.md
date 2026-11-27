@@ -11,10 +11,10 @@ Sayfa dosyalarının aslı `dist/` klasöründedir. Değişikliklerden sonra `no
 ## Dosyalar
 
 - `dist/index.html`: ana sayfa, biyografi, çalışmalar, gündem, albüm ve iletişim.
-- `dist/style.css`: turkuaz, antrasit/yeşil ve beyaz renk sistemi, mobil düzenler.
+- `dist/style.css`: beyaz zemin, koyu lacivert ve turkuaz vurgu renkleri, mobil düzenler.
 - `dist/app.js`: mobil menü, kategori filtreleri, haber ayrıntıları ve fotoğraf görüntüleyici.
 - `dist/assets/`: resmî yayınlardan alınan görseller; belediye logosu değiştirilmemiştir.
-- `dist/assets/fonts/`: Poppins fontları, Türkçe karakter alt kümeleri ve SIL OFL lisansı. Başlıklar sistemdeki Cambria/Georgia serif ailesini kullanır.
+- `dist/assets/fonts/`: Poppins fontları, Türkçe karakter alt kümeleri ve SIL OFL lisansı. Başlıklar ve gövde metni yerel Poppins ailesini kullanır.
 
 ## Önizleme
 

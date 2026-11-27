@@ -1,24 +1,25 @@
 /* Decorative geometry complements the municipal identity; the logo is unchanged. */
 .hero-visual>img{height:auto;aspect-ratio:auto;object-fit:contain}
-.hero-cover{gap:28px;grid-template-columns:1fr 1.08fr;align-items:center}
-.hero-cover .hero-copy{position:relative;isolation:isolate;overflow:hidden;background:#008d91;border-radius:10px;padding:40px 34px;color:white}
-.hero-cover .hero-copy::before{content:'';position:absolute;inset:0;z-index:-2;background:url('assets/bilal-uludag-kapak-arka-plan.jpg') 62% center/cover no-repeat;opacity:.2;pointer-events:none}
-.hero-cover .hero-copy::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(0,85,91,.58),rgba(0,105,112,.15));pointer-events:none}
+.hero-cover{width:min(1400px,calc(100% - 80px));gap:24px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:stretch;margin-top:48px;padding-bottom:48px}
+.hero-cover .hero-copy{display:flex;flex-direction:column;justify-content:center;min-width:0;overflow:hidden;background:#008d91;border-radius:10px;padding:36px 40px;color:white}
 .hero-cover .eyebrow{color:#e0ffff;font-size:12px;letter-spacing:1px;margin-bottom:23px}
-.hero-cover h1{font-size:clamp(46px,5vw,64px);letter-spacing:-2.8px}
-.hero-cover .hero-description{color:#efffff;font-size:16px;line-height:1.8;margin-top:22px}
+.hero-cover h1{font-size:clamp(44px,4.4vw,64px);letter-spacing:-2.8px}
+.hero-cover h1 span{display:inline}
+.hero-cover .hero-description{color:#efffff;font-size:16px;line-height:1.8;margin-top:22px;max-width:none}
 .hero-cover .hero-actions{gap:20px;margin-top:26px}
 .hero-cover .button{background:#fff;color:#07575d;font-size:14px;padding-inline:18px}
 .hero-cover .button:hover{background:#def6f5}
 .hero-cover .text-link{color:white;border-color:#a7dddf;font-size:14px}
 .hero-cover .text-link:hover{border-color:white}
-.hero-cover .hero-bottom{color:#e6ffff;gap:18px;margin-top:32px}
+.hero-cover .hero-bottom{color:#e6ffff;gap:18px;margin-top:26px}
 .hero-cover .hero-bottom>span{letter-spacing:.5px;margin-right:0}
 .hero-cover .hero-bottom>span span{color:#c0eded}
 .hero-cover .hero-bottom a:hover{color:white;text-decoration:underline}
-.hero-cover .hero-visual{min-width:0}
-@media(max-width:900px){.hero-cover{gap:22px}.hero-cover .hero-copy{padding:30px 25px}.hero-cover h1{font-size:53px}.hero-cover .hero-actions{flex-direction:column;align-items:flex-start;gap:17px}.hero-cover .hero-bottom{gap:14px}}
-@media(max-width:650px){.hero-cover{grid-template-columns:minmax(0,1fr);gap:22px}.hero-cover .hero-copy{padding:32px 26px}.hero-cover h1{font-size:clamp(49px,13vw,64px)}.hero-cover h1 span{display:block}.hero-cover .hero-actions{flex-direction:row;align-items:center}.hero-cover .hero-bottom>span{flex-basis:auto}.hero-cover .hero-copy::before{background-position:60% center}}
+.hero-cover .hero-visual{min-width:0;display:grid;align-items:center;background:var(--paper);border-radius:10px;overflow:hidden}
+.hero-cover .hero-visual>img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+@media(max-width:1100px){.hero-cover .hero-copy{padding:30px}.hero-cover .hero-actions{gap:16px}.hero-cover .hero-bottom{gap:14px}}
+@media(max-width:1000px){.hero-cover{width:calc(100% - 56px);grid-template-columns:minmax(0,1fr);gap:22px;margin-top:32px}.hero-cover .hero-copy{padding:38px}.hero-cover h1{font-size:60px}.hero-cover .hero-actions{flex-direction:row;align-items:center}.hero-cover .hero-bottom>span{flex-basis:auto}.hero-cover .hero-visual{background:transparent}}
+@media(max-width:650px){.hero-cover{width:calc(100% - 40px);margin-top:25px;padding-bottom:35px}.hero-cover .hero-copy{padding:32px 26px}.hero-cover h1{font-size:clamp(43px,10vw,60px)}.hero-cover .hero-actions{flex-wrap:wrap}.hero-cover .hero-bottom{flex-wrap:wrap}}
 .site-header{border-bottom:0}
 .site-header::after{content:'';display:block;height:18px;background:#fff url('assets/selcuklu-serit.svg') repeat-x center;border-bottom:1px solid var(--line)}
 .site-header nav{gap:20px}

@@ -31,3 +31,6 @@ Kontrol tarihi: **27 Kasım 2026**. Metinler kısa özetler olarak yeniden yazı
 Logo SHA-256: `2a3b643cf876a20b75491db7fb09301408c84ae5522c4c033a4161d080b4ecee`.
 
 Fotoğraflar gerçek kişiye ve resmî etkinliklere aittir; yapay portre veya temsili etkinlik görseli kullanılmamıştır. Görsel hakları kaynak kuruma aittir; kamuya açık resmî yayına geçişte kurumun içerik/görsel onayıyla kullanılmalıdır.
+# Kullanıcı tarafından sağlanan görsel
+
+`dist/assets/bilal-uludag-ana-sayfa.jpg`: 27 Kasım 2026 tarihinde kullanıcı tarafından bu çalışma için paylaşılan fotoğraf. Ana sayfanın giriş alanında metin ve buton olmadan kullanılır.

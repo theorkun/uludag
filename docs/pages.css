@@ -1,4 +1,6 @@
 /* Decorative geometry complements the municipal identity; the logo is unchanged. */
+.hero-photo{margin-top:32px}
+.hero-photo>img{width:100%;height:auto;border-radius:10px}
 .site-header{border-bottom:0}
 .site-header::after{content:'';display:block;height:18px;background:#fff url('assets/selcuklu-serit.svg') repeat-x center;border-bottom:1px solid var(--line)}
 .site-header nav{gap:20px}

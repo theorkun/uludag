@@ -1,0 +1,52 @@
+/* Decorative geometry complements the municipal identity; the logo is unchanged. */
+.site-header{border-bottom:0}
+.site-header::after{content:'';display:block;height:18px;background:#fff url('assets/selcuklu-serit.svg') repeat-x center;border-bottom:1px solid var(--line)}
+.site-header nav{gap:20px}
+.site-header nav a{display:inline-flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap}
+.nav-motif{width:13px;height:13px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.15;color:#789699;transition:color .2s}
+.site-header nav a[aria-current=page]{color:var(--teal);font-weight:500}
+.site-header nav a[aria-current=page] .nav-motif,.site-header nav a:hover .nav-motif{color:var(--teal)}
+.page-intro{padding-top:35px;padding-bottom:35px;border-bottom:1px solid var(--line)}
+.breadcrumbs{display:flex;gap:13px;align-items:center;color:var(--muted);font-size:13px;margin-bottom:28px}
+.breadcrumbs a:hover{color:var(--teal)}
+.breadcrumbs>span[aria-hidden]{color:#a1b1ba}
+.page-heading{display:flex;align-items:center;gap:23px}
+.heading-motif{display:flex;align-items:center;justify-content:center;width:58px;height:58px;flex-shrink:0;background:#f1f7f7;border-radius:8px}
+.heading-motif .nav-motif{width:34px;height:34px;color:var(--teal);stroke-width:.65}
+.page-heading h1{font-size:clamp(30px,3.3vw,43px);letter-spacing:-1.4px;line-height:1.25}
+.page-heading p{margin-top:10px;max-width:680px;color:var(--muted);font-size:16px}
+.inner-page main>.section{padding-block:56px}
+.inner-page .about{align-items:start}
+.inner-page .about-portrait{position:sticky;top:145px}
+.inner-page .biography-more>p{margin-top:17px}
+.inner-page .work-section,.inner-page .contact-section{background:white}
+.inner-page .album-section{border-top:0}
+.inner-page .contact-section{padding-block:56px}
+.inner-page .site-footer{border-top:1px solid var(--line);background:var(--paper)}
+.inner-page main{min-height:calc(100vh - 350px)}
+@media(max-width:1080px){
+  .header-inner{min-height:80px}
+  .menu-toggle{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:44px;height:44px}
+  .menu-toggle span{display:block;width:22px;height:2px;background:var(--ink);transition:transform .2s}
+  .menu-toggle[aria-expanded=true] span:first-child{transform:translateY(4px) rotate(45deg)}
+  .menu-toggle[aria-expanded=true] span:last-child{transform:translateY(-4px) rotate(-45deg)}
+  .site-header nav{display:none;position:absolute;top:98px;left:0;right:0;padding:18px 28px 24px;background:white;border-bottom:1px solid var(--line);flex-direction:column;gap:0;align-items:stretch}
+  .site-header nav.open{display:flex}
+  .site-header nav a{padding:12px 0;font-size:16px;justify-content:flex-start;gap:12px}
+  .site-header nav .nav-contact{margin-top:8px;padding-left:14px}
+  .site-header .nav-motif{width:16px;height:16px}
+}
+@media(max-width:650px){
+  html{scroll-padding-top:110px}
+  .header-inner{min-height:76px}
+  .site-header nav{top:94px;padding-inline:20px;max-height:calc(100dvh - 94px);overflow:auto}
+  .page-intro{padding-top:23px;padding-bottom:27px}
+  .breadcrumbs{margin-bottom:24px;font-size:12px}
+  .page-heading{gap:15px;align-items:flex-start}
+  .heading-motif{width:43px;height:43px;border-radius:6px}
+  .heading-motif .nav-motif{width:27px;height:27px}
+  .page-heading h1{font-size:29px;letter-spacing:-.8px}
+  .page-heading p{margin-top:10px;font-size:16px}
+  .inner-page main>.section,.inner-page .contact-section{padding-block:38px}
+  .inner-page .about-portrait{position:static}
+}

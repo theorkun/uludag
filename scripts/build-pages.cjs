@@ -1,5 +1,6 @@
 const fs = require('node:fs');
 const path = require('node:path');
+require('./build-site.cjs');
 
 const root = path.resolve(__dirname, '..');
 const source = path.join(root, 'dist');

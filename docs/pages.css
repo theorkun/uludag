@@ -1,7 +1,6 @@
 /* Decorative geometry complements the municipal identity; the logo is unchanged. */
 body{position:relative;isolation:isolate}
-body::before{content:'';position:fixed;inset:110px 0 0;z-index:-1;background:url('assets/saricam-sinir-haritasi.png') center center/contain no-repeat;filter:grayscale(1);opacity:.12;pointer-events:none}
-@media(max-width:650px){body::before{inset:94px 0 0;background-size:auto 78%;opacity:.08}}
+body::before{content:'';position:fixed;inset:0;z-index:-1;background:linear-gradient(rgba(255,255,255,.87),rgba(255,255,255,.92)),url('assets/saricam-gol-manzarasi.jpg') center center/cover no-repeat;pointer-events:none}
 @media print{body::before{display:none}}
 .hero-visual>img{height:auto;aspect-ratio:auto;object-fit:contain}
 .hero-cover{width:min(1400px,calc(100% - 80px));gap:24px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:stretch;margin-top:48px;padding-bottom:48px}

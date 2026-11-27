@@ -1,0 +1,38 @@
+{
+  "iklim": {
+    "category": "Çevre ve İklim",
+    "title": "Sarıçam’ın iklim eylem planı COP31’de.",
+    "date": "16 Kasım 2026",
+    "image": "assets/iklim-calismalari.jpg",
+    "alt": "Bilal Uludağ COP31’de konuşurken",
+    "paragraphs": [
+      "Bilal Uludağ, Antalya’da düzenlenen COP31’de Sarıçam Yerel İklim Değişikliği Eylem Planı’nı tanıttı. Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi ile hazırlanan plan, ilçenin 69 mahallesinin ihtiyaçlarını ele alıyor.",
+      "Su ve enerji kaynaklarının verimli kullanımı, yeşil alanlar, altyapı ve sıfır atık çalışmaları sunumun başlıkları arasındaydı."
+    ],
+    "source": "https://www.saricam.bel.tr/bildirim/haberler/saricam-in-69-mahalleyi-kapsayan-iklim-eylem-plani-cop31-de-tanitildi-833"
+  },
+  "kultur": {
+    "category": "Kültür ve Sanat",
+    "title": "Sarıçam’da müzik ve hatıralarla bir buluşma.",
+    "date": "16 Kasım 2026",
+    "image": "assets/kultur-etkinligi.jpg",
+    "alt": "Bilal Uludağ kültür programında konuşurken",
+    "paragraphs": [
+      "Ferdi Tayfur’un doğum günü için Sarıçam’daki Ferdi Tayfur Sanat Merkezi ve Müzesi’nde bir anma programı düzenlendi. Bilal Uludağ’ın ev sahipliğindeki buluşmaya sanatçının ailesi ve sevenleri katıldı.",
+      "Programda sanatçının yaşamına ilişkin sergi, belgesel ve müzik dinletileri yer aldı."
+    ],
+    "source": "https://www.saricam.bel.tr/bildirim/haberler/ferdi-tayfur-dogum-gununde-memleketi-adana-da-sarkilariyla-anildi-tayfur-ailesi-ve-sanatcinin-sevenleri-saricam-da-bulustu-835"
+  },
+  "cumhuriyet": {
+    "category": "Kent Yaşamı",
+    "title": "Cumhuriyet’in ortak değerlerinde bir arada.",
+    "date": "30 Ekim 2026",
+    "image": "assets/cumhuriyet-programi.jpg",
+    "alt": "Cumhuriyet ve Kadınlar Programı katılımcıları",
+    "paragraphs": [
+      "Sarıçam Belediyesi’nin Cumhuriyet ve Kadınlar Programı, Cumhuriyet’in 103. yıl dönümünde düzenlendi. Etkinlikte iş dünyası, spor, sanat ve sivil toplum alanlarından katılımcılar bir araya geldi.",
+      "Kadınların toplumsal yaşamdaki emeği ve katkıları, programın odağını oluşturdu."
+    ],
+    "source": "https://www.saricam.bel.tr/bildirim/haberler/saricam-belediyesi-nden-anlamli-cumhuriyet-kutlamasi-829"
+  }
+}

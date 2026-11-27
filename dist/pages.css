@@ -4,7 +4,7 @@ body::before{content:'';position:fixed;inset:0;z-index:-1;background:linear-grad
 @media print{body::before{display:none}}
 .hero-visual>img{height:auto;aspect-ratio:auto;object-fit:contain}
 .hero-cover{width:min(1400px,calc(100% - 80px));gap:24px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-auto-rows:1fr;align-items:stretch;margin-top:48px;padding-bottom:48px}
-.hero-cover .hero-copy{display:flex;flex-direction:column;justify-content:center;min-width:0;overflow:hidden;background:#008d91;border-radius:10px;padding:36px 40px;color:white}
+.hero-cover .hero-copy{display:flex;flex-direction:column;justify-content:center;min-width:0;overflow:hidden;background:#008d91;border-radius:10px;padding:36px 40px;color:white;text-align:center}
 .hero-cover .eyebrow{color:#e0ffff;font-size:12px;letter-spacing:1px;margin-bottom:23px}
 .hero-cover h1{font-size:clamp(44px,4.4vw,64px);letter-spacing:-2.8px}
 .hero-cover h1 span{display:inline}
@@ -18,7 +18,7 @@ body::before{content:'';position:fixed;inset:0;z-index:-1;background:linear-grad
 .hero-institutions>a:focus-visible{outline-offset:-5px;border-radius:10px}
 @media(max-width:650px){.hero-institutions{max-width:320px;margin-bottom:26px;border-radius:12px}.hero-institutions>a{min-height:102px;padding:16px}.hero-institutions img{height:70px}.hero-institutions .institution-union img{width:130px;max-height:70px}}
 .hero-cover .hero-description{color:#efffff;font-size:16px;line-height:1.8;margin-top:22px;max-width:none}
-.hero-cover .hero-actions{gap:20px;margin-top:26px}
+.hero-cover .hero-actions{gap:20px;margin-top:26px;justify-content:center}
 .hero-cover .button{background:#fff;color:#07575d;font-size:14px;padding-inline:18px}
 .hero-cover .button:hover{background:#def6f5}
 .hero-cover .text-link{color:white;border-color:#a7dddf;font-size:14px}
@@ -72,7 +72,7 @@ body::before{content:'';position:fixed;inset:0;z-index:-1;background:linear-grad
 .hero-cover{margin-top:32px;padding-bottom:32px;border-bottom:0}
 .hero-cover .hero-copy{padding:42px;background:#007f83;border-radius:14px}
 .hero-cover .hero-visual{border-radius:14px}
-.hero-cover .hero-description{max-width:440px;line-height:1.85}
+.hero-cover .hero-description{max-width:440px;line-height:1.85;margin-inline:auto}
 .hero-description strong{font-size:19px;font-weight:500}
 .hero-cover .eyebrow{font-size:13px;line-height:1.7;letter-spacing:.5px}
 .hero-cover .hero-bottom{font-size:14px}

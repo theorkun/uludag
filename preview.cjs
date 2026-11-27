@@ -1,0 +1,5 @@
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const root=path.join(__dirname,'dist');
+const server=http.createServer((req,res)=>{let pathname;try{pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400);res.end();return;}const file=path.resolve(root,'.'+(pathname==='/'?'/index.html':pathname));if(!file.startsWith(root+path.sep)||!fs.existsSync(file)||!fs.statSync(file).isFile()){res.writeHead(404);res.end('Bulunamadı');return;}const ext=path.extname(file),type={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2','.txt':'text/plain; charset=utf-8'}[ext]||'application/octet-stream';res.writeHead(200,{'Content-Type':type,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'});fs.createReadStream(file).pipe(res);});
+server.listen(8097,'127.0.0.1',()=>console.log('Bilal Uludağ web sitesi: http://127.0.0.1:8097/'));
+process.on('SIGINT',()=>server.close());

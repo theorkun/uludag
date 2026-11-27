@@ -33,6 +33,8 @@ Logo SHA-256: `2a3b643cf876a20b75491db7fb09301408c84ae5522c4c033a4161d080b4ecee`
 Fotoğraflar gerçek kişiye ve resmî etkinliklere aittir; yapay portre veya temsili etkinlik görseli kullanılmamıştır. Görsel hakları kaynak kuruma aittir; kamuya açık resmî yayına geçişte kurumun içerik/görsel onayıyla kullanılmalıdır.
 # Kullanıcı tarafından sağlanan görsel
 
+`dist/assets/saricam-sinir-haritasi.png`: Yerel `MAH_SINIR-69Adet.png` dosyası. Sarıçam ilçe sınır haritası, tüm sayfaların en arka katmanında CSS ile gri tonlu ve düşük opaklıkta dekoratif olarak kullanılır. Kaynak görsel değiştirilmemiştir; güncel idari sınır sorgulama hizmeti değildir.
+
 `dist/assets/bilal-uludag-kapak-arka-plan.jpg`: Kullanıcının 27 Kasım 2026 tarihinde paylaştığı makam fotoğrafı. Ana sayfada düz turkuaz tanıtım kapağının sağında, büyük görsel olarak kullanılır; orijinal dosya değiştirilmemiştir.
 
 `dist/assets/bilal-uludag-ana-sayfa.jpg`: 27 Kasım 2026 tarihinde kullanıcı tarafından bu çalışma için paylaşılan fotoğraf. Ana sayfanın giriş alanında, tanıtım metninin yanında ve fotoğraf altı açıklaması olmadan kullanılır.
